@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[The Last Name is:Teszt1]]>
+    </line>
+    <line>
+      <![CDATA[The First Name is:Elek1]]>
+    </line>
+    <line>
+      <![CDATA[The Gmail Address is:teszt.elek1@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[The Password is:password1]]>
+    </line>
+    <line>
+      <![CDATA[The Password Again is:password1]]>
+    </line>
+    <line>
+      <![CDATA[The Last Name is:Teszt2]]>
+    </line>
+    <line>
+      <![CDATA[The First Name is:Elek2]]>
+    </line>
+    <line>
+      <![CDATA[The Gmail Address is:teszt.elek2@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[The Password is:password2]]>
+    </line>
+    <line>
+      <![CDATA[The Password Again is:password2]]>
+    </line>
+    <line>
+      <![CDATA[The Last Name is:Teszt3]]>
+    </line>
+    <line>
+      <![CDATA[The First Name is:Elek3]]>
+    </line>
+    <line>
+      <![CDATA[The Gmail Address is:teszt.elek3@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[The Password is:password3]]>
+    </line>
+    <line>
+      <![CDATA[The Password Again is:password3]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="16742" started-at="2015-09-10T13:25:16Z" finished-at="2015-09-10T13:25:33Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="16742" started-at="2015-09-10T13:25:16Z" finished-at="2015-09-10T13:25:33Z">
+      <class name="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest">
+        <test-method status="PASS" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@27f674d]" name="setupBeforeSuite" is-config="true" duration-ms="7319" started-at="2015-09-10T15:25:16Z" finished-at="2015-09-10T15:25:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c67e137]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@27f674d]" name="testSignUp" duration-ms="5089" started-at="2015-09-10T15:25:25Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-10T15:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teszt1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elek1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[teszt.elek1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Last Name is:Teszt1]]>
+            </line>
+            <line>
+              <![CDATA[The First Name is:Elek1]]>
+            </line>
+            <line>
+              <![CDATA[The Gmail Address is:teszt.elek1@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[The Password is:password1]]>
+            </line>
+            <line>
+              <![CDATA[The Password Again is:password1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@27f674d]" name="testSignUp" duration-ms="842" started-at="2015-09-10T15:25:30Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-10T15:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teszt2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elek2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[teszt.elek2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Last Name is:Teszt2]]>
+            </line>
+            <line>
+              <![CDATA[The First Name is:Elek2]]>
+            </line>
+            <line>
+              <![CDATA[The Gmail Address is:teszt.elek2@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[The Password is:password2]]>
+            </line>
+            <line>
+              <![CDATA[The Password Again is:password2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@27f674d]" name="testSignUp" duration-ms="731" started-at="2015-09-10T15:25:31Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-10T15:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teszt3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elek3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[teszt.elek3@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Last Name is:Teszt3]]>
+            </line>
+            <line>
+              <![CDATA[The First Name is:Elek3]]>
+            </line>
+            <line>
+              <![CDATA[The Gmail Address is:teszt.elek3@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[The Password is:password3]]>
+            </line>
+            <line>
+              <![CDATA[The Password Again is:password3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="testResults()[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@27f674d]" name="testResults" is-config="true" duration-ms="1242" started-at="2015-09-10T15:25:31Z" finished-at="2015-09-10T15:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResults -->
+      </class> <!-- DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
