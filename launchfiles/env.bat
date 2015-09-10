@@ -1,0 +1,21 @@
+@echo off
+SET PROJECT_BASE=%~d0%~p0
+REM SET PATH=C:\WINXP\system32;C:\WINXP;C:\WINXP\System32\Wbem;
+SET PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;
+SET PATH=%PATH%;%PROJECT_BASE%
+SET TOOL=%PROJECT_BASE%\tools
+SET PROJECT=%PROJECT_BASE%\project\DataDrivenExcel
+SET WORKSPACE=%PROJECT_BASE%\workspace
+SET REPOSITORY=%PROJECT_BASE%\repository
+
+SET M2_HOME=%TOOL%\apache-maven-3.2.5
+SET PATH=%PATH%;%M2_HOME%\bin
+
+SET MVN_HOME=%TOOL%\apache-maven-3.2.5
+SET PATH=%PATH%;%MVN_HOME%\bin
+
+SET JAVA_HOME=%TOOL%\jdk
+SET PATH=%PATH%;%JAVA_HOME%\bin
+
+SET ECLIPSE_HOME=%TOOL%\eclipse
+SET PATH=%PATH%;%ECLIPSE_HOME%
