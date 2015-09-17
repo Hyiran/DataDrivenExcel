@@ -27,5 +27,6 @@ The listed test cases and theirs results are located in a separate spreadsheet i
 -	TestNG 6.9.4
 -	ReportNG 1.1.4
 -	Apache POI 3.12
+-	WebDriver [latest]
 -	MS Excel
 -	Eclipse IDE Mars
