@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" time="5.09" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="1.04" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="d:\DataDrivenExcel\tools\jdk\jre\bin"/>
+    <property name="sun.boot.library.path" value="D:\DataDrivenExcel\tools\jdk\jre\bin"/>
     <property name="java.vm.version" value="25.60-b23"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="d:\DataDrivenExcel\${workspace_loc:\DataDrivenExcel}"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,19 +16,19 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="d:\DataDrivenExcel\project\DataDrivenExcel"/>
+    <property name="user.dir" value="D:\DataDrivenExcel\project\DataDrivenExcel"/>
     <property name="java.runtime.version" value="1.8.0_60-b27"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="d:\DataDrivenExcel\tools\jdk\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="D:\DataDrivenExcel\tools\jdk\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\ANNAMA~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="d:\DataDrivenExcel\\tools\apache-maven-3.2.5\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:\DataDrivenExcel\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7385929864079530577.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="d:\DataDrivenExcel\tools\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;;d:\DataDrivenExcel\;d:\DataDrivenExcel\\tools\apache-maven-3.2.5\bin;d:\DataDrivenExcel\\tools\apache-maven-3.2.5\bin;d:\DataDrivenExcel\\tools\jdk\bin;d:\DataDrivenExcel\\tools\eclipse;."/>
+    <property name="java.library.path" value="D:\DataDrivenExcel\tools\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;;d:\DataDrivenExcel\;d:\DataDrivenExcel\\tools\apache-maven-3.2.5\bin;d:\DataDrivenExcel\\tools\apache-maven-3.2.5\bin;d:\DataDrivenExcel\\tools\jdk\bin;d:\DataDrivenExcel\\tools\eclipse;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -38,30 +39,28 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Annamaria_Szegedi"/>
-    <property name="java.class.path" value="d:\DataDrivenExcel\\tools\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/D:/DataDrivenExcel/tools/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.0.20150526-2031/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="d:\DataDrivenExcel\tools\jdk\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="D:\DataDrivenExcel\tools\jdk\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_60"/>
-    <property name="java.ext.dirs" value="d:\DataDrivenExcel\tools\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="d:\DataDrivenExcel\tools\jdk\jre\lib\resources.jar;d:\DataDrivenExcel\tools\jdk\jre\lib\rt.jar;d:\DataDrivenExcel\tools\jdk\jre\lib\sunrsasign.jar;d:\DataDrivenExcel\tools\jdk\jre\lib\jsse.jar;d:\DataDrivenExcel\tools\jdk\jre\lib\jce.jar;d:\DataDrivenExcel\tools\jdk\jre\lib\charsets.jar;d:\DataDrivenExcel\tools\jdk\jre\lib\jfr.jar;d:\DataDrivenExcel\tools\jdk\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.ext.dirs" value="D:\DataDrivenExcel\tools\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\DataDrivenExcel\tools\jdk\jre\lib\resources.jar;D:\DataDrivenExcel\tools\jdk\jre\lib\rt.jar;D:\DataDrivenExcel\tools\jdk\jre\lib\sunrsasign.jar;D:\DataDrivenExcel\tools\jdk\jre\lib\jsse.jar;D:\DataDrivenExcel\tools\jdk\jre\lib\jce.jar;D:\DataDrivenExcel\tools\jdk\jre\lib\charsets.jar;D:\DataDrivenExcel\tools\jdk\jre\lib\jfr.jar;D:\DataDrivenExcel\tools\jdk\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="d:\DataDrivenExcel\tools\apache-maven-3.2.5"/>
+    <property name="maven.home" value="D:\DataDrivenExcel\project\DataDrivenExcel\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testSignUp" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" time="5.09"/>
-  <testcase name="testSignUp" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" time="0.84"/>
-  <testcase name="testSignUp" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" time="0.732"/>
+  <testcase name="testSignUp" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" time="1.04"/>
+  <testcase name="testSignUp" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" time="0.675"/>
+  <testcase name="testSignUp" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" time="0.661"/>
 </testsuite>

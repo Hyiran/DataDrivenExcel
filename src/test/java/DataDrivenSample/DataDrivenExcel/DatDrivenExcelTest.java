@@ -47,9 +47,8 @@ public class DatDrivenExcelTest {
 		 * The file path should be the test data file full path. The sheet name
 		 * should be the test sheet name in the test data file.
 		 */
-		ParsingExcel userData = new ParsingExcel("./testdata/SampleExcel.xlsx",
-				"Users");
-
+		ParsingExcel userData = new ParsingExcel("testdata/SampleExcel.xlsx", "Users");
+		 
 		/**
 		 * Temporary array of the user details.
 		 */
@@ -169,9 +168,9 @@ public class DatDrivenExcelTest {
 		 * The file path should be the test data file full path. The sheet name
 		 * should be the test sheet name in the test data file.
 		 */
-		WritingExcel userData = new WritingExcel(
-				"./testresult/SampleResult.xlsx", "TestResults");
+		WritingExcel userData = new WritingExcel("testresult/SampleResult.xlsx ", "TestResults");
 
+		
 		Set<String> results = testResults.keySet();
 
 		int rowIndex = 0;

@@ -47,23 +47,23 @@
       <![CDATA[The Password Again is:password3]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13956" started-at="2015-09-03T10:32:21Z" finished-at="2015-09-03T10:32:35Z">
+  <suite name="Default suite" duration-ms="9561" started-at="2015-09-17T15:10:41Z" finished-at="2015-09-17T15:10:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13956" started-at="2015-09-03T10:32:21Z" finished-at="2015-09-03T10:32:35Z">
+    <test name="Default test" duration-ms="9561" started-at="2015-09-17T15:10:41Z" finished-at="2015-09-17T15:10:51Z">
       <class name="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest">
-        <test-method status="PASS" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1134affc]" name="setupBeforeSuite" is-config="true" duration-ms="8106" started-at="2015-09-03T12:32:21Z" finished-at="2015-09-03T12:32:29Z">
+        <test-method status="PASS" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1cd072a9]" name="setupBeforeSuite" is-config="true" duration-ms="5047" started-at="2015-09-17T17:10:41Z" finished-at="2015-09-17T17:10:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@191ae03f]]>
+                <![CDATA[org.testng.TestRunner@2552f2cb]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBeforeSuite -->
-        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1134affc]" name="testSignUp" duration-ms="1007" started-at="2015-09-03T12:32:31Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-03T12:32:32Z">
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1cd072a9]" name="testSignUp" duration-ms="1175" started-at="2015-09-17T17:10:47Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-17T17:10:48Z">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testSignUp -->
-        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1134affc]" name="testSignUp" duration-ms="639" started-at="2015-09-03T12:32:32Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-03T12:32:33Z">
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1cd072a9]" name="testSignUp" duration-ms="669" started-at="2015-09-17T17:10:48Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-17T17:10:49Z">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testSignUp -->
-        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1134affc]" name="testSignUp" duration-ms="647" started-at="2015-09-03T12:32:33Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-03T12:32:34Z">
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1cd072a9]" name="testSignUp" duration-ms="648" started-at="2015-09-17T17:10:49Z" description="Sign up for Google" data-provider="Users" finished-at="2015-09-17T17:10:50Z">
           <params>
             <param index="0">
               <value>
@@ -216,7 +216,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testSignUp -->
-        <test-method status="PASS" signature="testResults()[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1134affc]" name="testResults" is-config="true" duration-ms="1305" started-at="2015-09-03T12:32:34Z" finished-at="2015-09-03T12:32:35Z">
+        <test-method status="PASS" signature="testResults()[pri:0, instance:DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest@1cd072a9]" name="testResults" is-config="true" duration-ms="1076" started-at="2015-09-17T17:10:50Z" finished-at="2015-09-17T17:10:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResults -->

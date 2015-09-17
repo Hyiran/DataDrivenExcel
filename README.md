@@ -15,8 +15,17 @@ You can read more at: http://testng.org/doc/documentation-main.html#parameters-d
 4.	It is easy to modify the data records with Microsoft Excel.
 5.	Multiple input data files can be created and used when required.
 
-##Test Data##
+##MS Excel Test Data##
 The test data file is located in a spreadsheet in the 'testdata' folder.
 
-##Test Result##
+##MS Excel Test Result##
 The listed test cases and theirs results are located in a separate spreadsheet in the 'testresult' folder.
+
+##Technology Stack##
+-	Java 1.8
+-	Maven 3.2.5
+-	TestNG 6.9.4
+-	ReportNG 1.1.4
+-	Apache POI 3.12
+-	MS Excel
+-	Eclipse IDE Mars

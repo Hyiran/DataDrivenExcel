@@ -33,18 +33,20 @@ public class ParsingExcel {
 	 *            name of the sheet in the excel file
 	 */
 	public ParsingExcel(String fileName, String sheetName) {
+		System.out.println(fileName);
 		try {
+			File file = new File(fileName);
+			System.out.println(file.getAbsolutePath());
 			if (fileName.indexOf("xlsx") < 0) { // for .xls format
-				wb = new HSSFWorkbook(new FileInputStream(new File(fileName)));
+				wb = new HSSFWorkbook(new FileInputStream(file));
 				ws = wb.getSheet(sheetName);
 			} else { // for .xlsx format
 				wb = new XSSFWorkbook(fileName);
 				ws = (XSSFSheet) wb.getSheet(sheetName);
 			}
 		} catch (IOException io) {
-			throw new Error("Invalid file '" + fileName
-					+ "' or incorrect sheet '" + sheetName
-					+ "', enter a valid one");
+			throw new Error(
+					"Invalid file '" + fileName + "' or incorrect sheet '" + sheetName + "', enter a valid one");
 		}
 	}
 
@@ -62,8 +64,8 @@ public class ParsingExcel {
 		try {
 			cellValue = ws.getRow(rowIndex).getCell(columnIndex).toString();
 		} catch (Exception e) {
-			throw new Error("The cell with row '" + rowIndex + "' and column '"
-					+ columnIndex + "' doesn't exist in the sheet");
+			throw new Error(
+					"The cell with row '" + rowIndex + "' and column '" + columnIndex + "' doesn't exist in the sheet");
 		}
 		return cellValue;
 	}

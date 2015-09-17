@@ -5,7 +5,7 @@
     <classes>
       <class name="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest">
         <methods>
-          <include name="testSignUp" invocation-numbers="0"/>
+          <include name="testSignUp"/>
           <include name="setupBeforeSuite"/>
           <include name="testResults"/>
         </methods>

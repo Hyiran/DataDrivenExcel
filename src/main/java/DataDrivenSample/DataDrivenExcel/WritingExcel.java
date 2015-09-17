@@ -1,5 +1,6 @@
 package DataDrivenSample.DataDrivenExcel;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -37,18 +38,20 @@ public class WritingExcel {
 	 */
 	public WritingExcel(String fileName, String sheetName) {
 		try {
+			File file = new File(fileName);
 			if (fileName.indexOf("xlsx") < 0) { // for .xls format
 				wb = new HSSFWorkbook();
-			    fileOut = new FileOutputStream(fileName);
+			    fileOut = new FileOutputStream(file);
 
 			    ws = wb.createSheet(sheetName);
 			} else { // for .xlsx format
 				wb = new XSSFWorkbook();
-			    fileOut = new FileOutputStream(fileName);
+			    fileOut = new FileOutputStream(file);
 
 			    ws = wb.createSheet(sheetName);
 			}
 		} catch (IOException io) {
+			System.out.println(io);
 			throw new Error("Invalid file '" + fileName
 					+ "' or incorrect sheet '" + sheetName
 					+ "', enter a valid one");

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="order"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.376">
+  <properties />
+  
+  
+            <testcase name="testSignUp" time="0.660" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" />
+                <testcase name="testSignUp" time="1.041" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" />
+                <testcase name="testSignUp" time="0.675" classname="DataDrivenSample.DataDrivenExcel.DatDrivenExcelTest" />
+      
+</testsuite>
